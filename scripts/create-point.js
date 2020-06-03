@@ -25,14 +25,15 @@ function getCities(event) {
 
     const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
+    citySelect.innerHTML = "<option value=''>Selecione a cidade</option>"
+    citySelect.disabled = true
+
     fetch(url)
     .then( res => res.json() )
     .then( cities => {
-        
-    citySelect.innerHTML = ""
 
         for(let city of cities) {
-            citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
+            citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
         }
 
         citySelect.disabled = false
@@ -45,3 +46,42 @@ document
     .querySelector("select[name=uf]")
     .addEventListener("change", getCities)
 
+// Itens de coleta
+
+const itemsToCollect = document.querySelectorAll(".itens-grid li")
+
+for(let item of itemsToCollect) {
+    item.addEventListener("click", handleSelectedItem)
+}
+
+const collectedItems = document.querySelector("input[name=itens]")
+
+let selectedItens = []
+
+function handleSelectedItem(event) {
+    
+    const itemLi = event.target
+
+    itemLi.classList.toggle("selected")
+
+    const itemId = itemLi.dataset.id
+
+    const alreadySelected = selectedItens.findIndex( item => {
+        const itemFound = item == itemId
+        return itemFound
+    })
+
+    if (alreadySelected >= 0) {
+        const filteredItems = selectedItens.filter( item => {
+            const itemIsDifferent = item != itemId
+            return itemIsDifferent
+        })
+
+        selectedItens = filteredItems
+
+    } else {
+        selectedItens.push(itemId)
+    }
+    
+    collectedItems.value = selectedItens
+}

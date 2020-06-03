@@ -18,6 +18,10 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-results .cards{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -28,8 +32,8 @@
 
 @media (max-height: 1000px) {
     #page-home {
-        background-position-y: 20vh;
-        background-size: 40%;
+        background-position-y: 24vh;
+        background-size: 48%;
         
     }
 }
