@@ -1,0 +1,28 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "Marketplace de coleta de resíduos onde as empresas podem cadastrar seus pontos de coleta para que suas informações estejam disponíveis em um mecanismo de busca de pontos de coleta da região.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4imu/Ecoleta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s4imu/Ecoleta/issues"
+  },
+  "homepage": "https://github.com/s4imu/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
