@@ -1,3 +1,8 @@
+body {
+    background-color: white;
+}
+
+
 #page-results {
     width: 90%;
     max-width: 1100px;
@@ -75,9 +80,10 @@ main .card p {
 
 body::after {
     content: "";
-    position: fixed;
-    background: white;
-    top: 40%;
+    position: absolute;
+    background: var(--background-color);
+    height: 16rem;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
