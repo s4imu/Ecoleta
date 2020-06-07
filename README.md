@@ -7,7 +7,7 @@
 
 ## 📝Sobre
 
-O **Ecoleta** é um marketplace de coleta de resíduos onde é possível cadastrar pontos de coleta para que suas informações estejam disponíveis em um mecanismo de busca de pontos de coleta da região.
+O **Ecoleta** é um marketplace de coleta de resíduos onde é possível cadastrar pontos de coleta para que suas informações estejam disponíveis em um mecanismo de busca de pontos de coleta da região desejada.
 
 ---
 ## 💻Tecnologias Utilizadas
