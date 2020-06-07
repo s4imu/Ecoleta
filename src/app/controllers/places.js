@@ -10,8 +10,7 @@ module.exports = {
         return res.render("create-point")
     },
     post(req, res){
-        
-        Place.create(req.body, () => {
+            Place.create(req.body, () => {
             return res.render("create-point", { saved: true })
         })
      
