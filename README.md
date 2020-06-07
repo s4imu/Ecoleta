@@ -24,11 +24,14 @@ O **Ecoleta** é um marketplace de coleta de resíduos onde é possível cadastr
 ## 🔧Funcionalidades
 
 * ### Cadastro de pontos de coleta
-    ![](https://bit.ly/3eWLP9V)
+    <h1 align=center>
+        <img src="https://bit.ly/3eWLP9V">
+    </h1>
 
 * ### Busca de pontos de coleta
-    ![](https://bit.ly/37agSMF)
-
+    <h1 align=center>
+        <img src="https://bit.ly/37agSMF">
+    </h1>
 ---
 
 ## 📂Como baixar o projeto
