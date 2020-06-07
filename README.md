@@ -1,8 +1,8 @@
-<h1 align=center>
+<h1>
     <img src="public\assets\logo.svg">
 </h1>
 <h1 align=center>
-    <img src="public\assets\pictures\index.png">
+    <img src="https://bit.ly/2XGxLM3">
 </h1>
 
 ## 📝Sobre
@@ -19,6 +19,15 @@ O **Ecoleta** é um marketplace de coleta de resíduos onde é possível cadastr
 * [Nunjucks](https://mozilla.github.io/nunjucks/) 
 * [Node](https://nodejs.org/en/download/)  
 * [SQL](https://www.w3schools.com/sql/) & [SQLite](https://www.sqlite.org/)
+
+---
+## 🔧Funcionalidades
+
+* ### Cadastro de pontos de coleta
+    ![](https://bit.ly/3eWLP9V)
+
+* ### Busca de pontos de coleta
+    ![](https://bit.ly/37agSMF)
 
 ---
 
@@ -38,3 +47,5 @@ Esse projeto requer que seu dispositivo tenha o [Node](https://nodejs.org/en/dow
     # Iniciar o projeto
     $ npm start
 ```
+
+
