@@ -7,7 +7,7 @@ module.exports = {
     },
     createPoint(req, res) {
     
-        return res.render("create-point", { saved: true })
+        return res.render("create-point")
     },
     post(req, res){
         
